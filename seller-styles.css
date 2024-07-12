@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header{
 
     display: flex;
@@ -87,4 +88,95 @@ body{
     margin-top:60px;
     margin-bottom: 30px;
     font-family: times;
+=======
+.header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.subheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shop-button {
+    background-color: white;
+    border-style: solid;
+    border-color: #465a27;
+    color: #465a27;
+    height: 36px;
+    width: 150px;
+    border-radius: 2px;
+    cursor: pointer; 
+    transition: background-color 0.2s, opacity 0.2s, color 0.2s;
+    margin-top: 30px;                                                                   
+    margin-left: 75px;
+    font-size: 16px;
+    }
+.shop-button:hover {
+    background-color: #465a27;
+    color: white;
+    }
+.shop-button:active{
+    opacity: 0.5;
+    }
+
+.btn{
+ background-color: #465a27;   
+}
+body{
+    align-items: center;
+}
+
+.display-items{
+    display: inline-grid;
+    margin-left: 230px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px
+}
+
+
+.control-images{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.images{
+    justify-items: center;
+}
+
+.item-grid{
+    display: inline-grid;
+    grid-template-columns: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #e0e3e5;
+    
+}
+
+.item-details{
+
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #fafaf5;
+}
+
+.subheading{
+    font-size: 45px;
+    margin-left:75px;
+    margin-top:60px;
+    margin-bottom: 30px;
+    font-family: times;
+>>>>>>> origin/main
 }
