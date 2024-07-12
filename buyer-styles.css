@@ -1,0 +1,164 @@
+p{
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-top:0px;
+}
+h1, h2, h3, h4{
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-top:0px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.subheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-button {
+    background-color: white;
+    border-style: solid;
+    border-color: #465a27;
+    color: #465a27;
+    height: 36px;
+    width: 150px;
+    border-radius: 2px;
+    cursor: pointer; 
+    transition: background-color 0.2s, opacity 0.2s, color 0.2s;
+    margin-top: 30px;
+    margin-left: 75px;
+    font-size: 16px;
+    display: inline-block;
+    }
+.menu-button:hover {
+    background-color: #465a27;
+    color: white;
+    }
+.menu-button:active{
+    opacity: 0.5;
+    }
+
+.btn{
+ background-color: #465a27;   
+}
+body{
+    align-items: center;
+}
+
+.display-items{
+    display: inline-grid;
+    margin-left: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px
+}
+
+
+.control-images{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.images{
+    justify-items: center;
+}
+
+.item-grid{
+    display: inline-grid;
+    grid-template-columns: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #e0e3e5;
+    
+}
+
+.item-details{
+
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #fafaf5;
+}
+
+.subheading{
+    font-size: 45px;
+    margin-left:75px;
+    margin-top:60px;
+    margin-bottom: 30px;
+    font-family: times;
+}
+
+.sidebar-category{
+    display: inline-grid;
+    grid-template-columns: 150px;
+    margin-top: 0px;
+    margin-right: 70px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #465a27;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.add-to-cart-btn{
+    background-color: orange;
+    border-style: solid;
+    border-color: orange;
+    border-width: 1px;
+    border-radius: 5px;
+    transition: opacity 0.2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+
+.add-to-cart-btn:hover{
+    opacity: 0.7;
+}
+
+.add-to-cart-btn:active{
+
+    opacity: 0.3;
+}
+
+.apparels, .accessory{
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 12px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.category,
+.gender,
+.Stock,
+.Ptype,
+.price{
+    margin-bottom: 7px;
+    font-family: arial;
+}
+
+.sidebar-header{
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.sidebar-subheader{
+    margin-top: 15px;
+}
